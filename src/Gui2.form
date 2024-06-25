@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Gui2">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="40" y="28" width="582" height="392"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d7d21" class="javax.swing.JLabel" binding="Nuts">
+        <constraints/>
+        <properties>
+          <maximumSize width="29" height="29"/>
+          <text value="Nuts"/>
+        </properties>
+      </component>
+      <component id="2b45e" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints/>
+        <properties>
+          <model>
+            <item value="---Select---"/>
+            <item value="Nuts.Kaju"/>
+            <item value="Nuts.Almonds "/>
+            <item value="Nuts.Akhrod"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7fa02" class="javax.swing.JTextField" binding="enterTheWeightInTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Calorie counter app:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="Calorie counter app.jar">
+      <element id="module-output" name="Calorie counter app" />
+    </root>
+  </artifact>
+</component>
