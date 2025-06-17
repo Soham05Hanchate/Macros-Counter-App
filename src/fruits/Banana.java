@@ -18,5 +18,6 @@ public class Banana {
         cal=(float)calories;
         carbs=(float)carbohydrates;
         fats=(float)fat;
+
     }
 }

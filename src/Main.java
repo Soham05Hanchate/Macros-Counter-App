@@ -6,4 +6,4 @@ public class Main {
 //        System.out.println(k.cal);
 //        System.out.println(k.prot);
     }
-}
+}   

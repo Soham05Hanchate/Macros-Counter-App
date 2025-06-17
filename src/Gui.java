@@ -1,9 +1,11 @@
 import Nuts.*;
-import bhaji.Flower;
-import bhaji.Shepu;
+import bhaji.*;
 import breakfast.Pohe;
 import breakfast.Upma;
+import curry.Ampti;
+import curry.Varan;
 import fruits.*;
+import rice.Rice;
 import rotis.*;
 
 import javax.swing.*;
@@ -39,7 +41,7 @@ public class Gui implements ActionListener {
     JButton clrroti;
     
     //-----------------------vvv BHAJI INITIALIZATION vvv---------------------------------------------------
-    String[] bhajistring={"--Select--","Shepu","Flower","Batata","Kobi","Bhendi","Palak Paneer","Methi","Shimla Mirch","Kanda chi Paath","Wangi","Tondli","Mula"};
+    String[] bhajistring={"--Select--","Shepu","Ussal","Flower","Batata","Kobi","Bhendi","Palak Paneer","Methi","Shimla Mirch","Kanda chi Paath","Wangi","Tondli","Mula"};
     JComboBox bhajibox =new JComboBox(bhajistring);
     JTextField bhajifield;
     JButton addbhaji;
@@ -487,6 +489,138 @@ public class Gui implements ActionListener {
                 System.out.println(protein);
                 System.out.println(calories);
             }
+            if(bhajitype.equals("Batata")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                Batata a=new Batata(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("Bhendi")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                Bhendi a=new Bhendi(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("KandaChiPaath")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                KandaChiPaath a=new KandaChiPaath(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("Kobi")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                Kobi a=new Kobi(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("Methi")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                Methi a=new Methi(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("Mula")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                Mula a=new Mula(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("PalakPaneer")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                PalakPaneer a=new PalakPaneer(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("ShimlaMirch")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                ShimlaMirch a=new ShimlaMirch(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("Tondli")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                Tondli a=new Tondli(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("Ussal")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                Ussal a=new Ussal(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(bhajitype.equals("Wangi")){
+                String value=bhajifield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputbhajiarray[shepu]=dataingms;
+                Wangi a=new Wangi(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
             if(bhajitype.equals("Flower")){
                 String value=bhajifield.getText();
                 double dataingms=Double.parseDouble(value);
@@ -509,10 +643,81 @@ public class Gui implements ActionListener {
             fats=0;
             bhajifield.setText("");
         }
-        if (e.getSource().equals(go)){
+        //---------------------------vvv RICE SECTION vvv-----------------------------
+        String ricetype;
+        ricetype= ricebox.getSelectedItem().toString();
+        double[] inputricearray=new double[2];
+        int rice=0;
+        if(e.getSource()==addrice){
+            if(ricetype.equals("Rice")){
+                String value=ricefield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputricearray[rice]=dataingms;
+                Rice a=new Rice(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
 
+            ricefield.setText("");
+        }
+        if (e.getSource().equals(clrrice)) {
+            protein = 0;
+            calories = 0;
+            carbs=0;
+            fats=0;
+            ricefield.setText("");
+        }
+        //----------------vvv CURRY vvv-------------------------
+        String currytype;
+        currytype= currybox.getSelectedItem().toString();
+        double[] inputcurryarray=new double[2];
+        int ampti=0;
+        int varan=1;
+        if(e.getSource()==addcurry){
+            if(currytype.equals("Ampti")){
+                String value=curryfield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputcurryarray[ampti]=dataingms;
+                Ampti a=new Ampti(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+            if(currytype.equals("Varan")){
+                String value=curryfield.getText();
+                double dataingms=Double.parseDouble(value);
+                inputcurryarray[varan]=dataingms;
+                Varan a=new Varan(dataingms);
+                protein+=a.prot;
+                calories+=a.cal;
+                carbs+=a.carbs;
+                fats+=a.fats;
+                System.out.println(protein);
+                System.out.println(calories);
+            }
+
+            curryfield.setText("");
+        }
+        if (e.getSource().equals(clrcurry)) {
+            protein = 0;
+            calories = 0;
+            carbs=0;
+            fats=0;
+            curryfield.setText("");
+        }
+        if (e.getSource().equals(go)){
+            data_storing d=new data_storing(protein,calories,carbs,fats);
             ResultsWindow r=new ResultsWindow(protein,calories,carbs,fats);
         }
+
+
 
     }
 }

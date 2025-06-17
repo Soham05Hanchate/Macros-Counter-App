@@ -6,10 +6,10 @@ public class Flower{
     public float carbs=0;
     public float fats=0;
     public Flower(double weight){
-        double calmul=1;
-        double protmul=1;
-        double carbsmul=1;
-        double fatsmul=1;
+        double calmul=0.25;
+        double protmul=0.02;
+        double carbsmul=0.05;
+        double fatsmul=0.003;
         double calories=calmul*weight;
         double protein=protmul*weight;
         double carbohydrates=carbsmul*weight;

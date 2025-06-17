@@ -6,10 +6,10 @@ public class Wangi{
     public float carbs=0;
     public float fats=0;
     public Wangi(double weight){
-        double calmul=1;
-        double protmul=1;
-        double carbsmul=1;
-        double fatsmul=1;
+        double calmul=0.25;
+        double protmul=0.01;
+        double carbsmul=0.06;
+        double fatsmul=0.01;
         double calories=calmul*weight;
         double protein=protmul*weight;
         double carbohydrates=carbsmul*weight;
