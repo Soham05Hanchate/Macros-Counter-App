@@ -714,6 +714,7 @@ public class Gui implements ActionListener {
         }
         if (e.getSource().equals(go)){
             data_storing d=new data_storing(protein,calories,carbs,fats);
+            excel_data_storing ex=new excel_data_storing(protein,calories,carbs,fats);
             ResultsWindow r=new ResultsWindow(protein,calories,carbs,fats);
         }
 
