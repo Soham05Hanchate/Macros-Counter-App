@@ -1,4 +1,5 @@
 🥗 Calorie Counter Java App
+
 A simple and interactive java application to track and calculate calorie intake based on food items. Built to help users maintain a healthy lifestyle by monitoring their daily food consumption.
 
 🚀 Features:
